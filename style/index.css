@@ -298,13 +298,39 @@ max-width: 1140px;
     font-size: 16;
     font-weight: bold;
 }
+/* section 5 */
+/* footer */
 footer{
+    max-width: 1140px;
     margin: 103px auto;
     background-color: white;
     
 }
+
 .footer-title{
     color: #4E47FF;
     font-weight: bold;
     font-size: 100px;
+    padding-bottom: 8px;
+    
+}
+.footer-text{
+    color: #8987A1;
+    max-width: 531px;
+    margin-left: 300px;
+
+}
+footer div ul{
+    list-style: none;
+}
+.list2{
+    display: flex;
+    gap: 48px;
+    padding: 20px;
+    color: #8987A1;
+    justify-content: center;
+}
+.footer1{
+
+    text-align: center;
 }
