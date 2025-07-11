@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+main{
+    background-color: rgba(70, 141, 248, 0.103)
+}
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -66,7 +69,7 @@ header{
     background-image: url("../../project/B12A01-landing-launchpad/Assets/Hero-bg.png");  
     background-repeat: no-repeat; 
     background-size: cover;
-    border: 1px solid white;
+    border: 1px solid rgba(70, 141, 248, 0.103);
     
 }
 .logo-title{
@@ -81,8 +84,9 @@ header{
 /* header */
 
 /* main */
-main{
-    max-width: 1140px;
+
+.main-width{
+max-width: 1140px;
     margin: 0 auto;
 }
 /* section-1 */
@@ -195,7 +199,8 @@ main{
 .card{
     padding-top: 24px;
     padding-left: 24px;
-    box-shadow: 0px 6px 50px 0px  rgba(70, 141, 248, 0.103);
+    box-shadow: 0px 6px 50px 0px  rgba(35, 52, 78, 0.103);
+    background-color: white;
 }
 /* section 3 */
 
@@ -204,15 +209,102 @@ main{
     padding-top: 137px;
     max-width: 1140;
     margin: 0 auto; 
+    
 }
 .section4-pad{
     text-align: center;
     background-color: white;
-    border: 2px solid #4E47FF;
+    border: 2px solid white;
+    padding-bottom: 71px;
+    box-shadow: 0px 6px 50px 0px  rgba(65, 133, 235, 0.192);
     
 }
 .section-4-title{
     font-weight: bold;
     font-size: 50px;
     padding-top: 71px;
+    padding-bottom: 20px;
+}
+.link{
+    font-weight: normal;
+}
+.btn{
+    padding-bottom: 20px;
+}
+.sec-4-text{
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0,50%);
+}
+.wc-big{
+    border-radius: 48px;
+}
+/* section 4 */
+
+/* section 5 */
+.section-5{
+    max-width: 1140;
+    margin-top: 0 auto;
+    padding-top: 92.23px;
+    padding-bottom: 71px;
+    
+}
+.section-5-pad{
+    display: flex;
+    align-items: center;
+    gap:115px ;
+    justify-content: space-between;
+    
+    
+}
+.sec-5-title{
+    color: black;
+    font-weight: bold;
+    font-size: 97px;
+    
+}
+.section-5 input[type="text"],.section-5 input[type="email"]{
+    display: block;
+    height: 70px;
+    width: 497px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.section-5 textarea{
+    display: block;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 497px;
+    font-size: 20px;
+    padding-top:20px;
+    border-radius: 10px;
+    padding-left:32px ;
+}
+.section-5 input[type="submit"]{
+    width: 100%;
+}
+.submit-input{
+    background-color: #4E47FF;
+    color: white;
+    padding:19px 193px;
+    border-radius:10px ;
+    margin-top: 19px;
+    font-size: 16;
+    font-weight: bold;
+}
+footer{
+    margin: 103px auto;
+    background-color: white;
+    
+}
+.footer-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 100px;
 }
